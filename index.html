@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ | Kiều Gia Bảo</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Kiều Gia Bảo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#ke-hoach">Kế hoạch Học tập</a></li>
+                <li><a href="#so-thich">Sở thích</a></li>
+                <li><a href="#lien-he">Liên hệ/Góp ý</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="home-page">
+        <section class="index">
+            <img src="hinh/day8/toi.jpg" alt="Ảnh đại diện của bạn" class="profile-img">
+            <h1>Chào mừng đến với trang web của tôi!</h1>
+            <p class="subtitle">Mình là một sinh viên đang học tập tại Đại học sư phạm TP HCM.</p>
+
+            <div class="cta-buttons">
+                <a href="plan.html" class="btn primary">Kế hoạch học tập</a>
+                <a href="contact.html" class="btn secondary">Liên hệ</a>
+            </div>
+        </section>
+
+        <section class="tom-tat">
+            <h2>Tóm tắt nhanh về tôi</h2>
+            <ul>
+                <li><strong>Họ và tên:</strong> Kiều Gia Bảo</li>
+                <li><strong>Ngày sinh:</strong> 17/03/2003</li>
+                <li><strong>Quê quán:</strong> Thành phố Hồ Chí Minh</li>
+                <li><strong>Sở thích:</strong> Chơi game, đọc truyện, nghe nhạc, xem phim</li>
+                <li><strong>Mục tiêu nghề nghiệp:</strong> Tốt nghiệp và trở thành một lập trình viên  trong lĩnh vực phát triển của bản thân.</li>
+            </ul>
+        </section>
+
+        <section id="ke-hoach">
+            <h2 style="margin-bottom: 30px;">🗓️ Kế hoạch Học tập và Lộ trình Phát triển</h2>
+
+        <div class="card">
+            <h3>Mục tiêu Học tập Ngắn hạn (6 tháng tới)</h3>
+            <ul>
+                <li>Hoàn thành các môn học trong học kì 1.</li>
+                <li>Dự định: Luyện tập, xây dựng trang web của bản thân</li>
+                <li>Kỹ năng mềm: Cải thiện khả năng thuyết trình và làm việc nhóm.</li>
+            </ul>
+        </div>
+        
+        <div class="card" style="margin-top: 20px;">
+            <h3>Các công cụ sử dụng để thực hiện và tham khảo</h3>
+            <ul>
+                <li>Công cụ: Visual Studio Code, Upcoder, Visual Studio,...</li>
+                <li>Tham khảo: Github, w3schools, MDN</li>
+            </ul>
+        </div>
+        </section>
+
+        <section id="so-thich">
+            <h2 style="margin-bottom: 30px;">✨ Sở thích và Đời sống Cá nhân</h2>
+
+        <div class="card">
+            <h3>📖 Sách và Học hỏi</h3>
+            <p>Trong thời gian gần đây, tôi đã đọc một số cuốn sách mà tôi cảm thấy rất hứng thú</p>
+            <ul>
+                <li>THiết kế web do trường ĐH sư phạm TP.HCM xuất bản</li>
+                <li>Tâm lí học 101 của Paul Kleinman</li>
+                <li>Hay một số tiểu thuyết online</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🎧 Âm nhạc và Giải trí</h3>
+            <p>Âm nhạc là nguồn cảm hứng khi làm việc. Mình thường nghe các thể loại:</p>
+            <ul>
+                <li>Lofi: Khi cần tập trung cao độ (Coding).</li>
+                <li>Pop/Rock: Thể loại yêu thích để thư giãn cuối tuần.</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>🏃 Hoạt động Thể chất</h3>
+            <p>Để duy trì sức khỏe và thể trạng:</p>
+            <ul>
+                <li>Chạy bộ: 3 lần mỗi tuần (khoảng 5km/lần).</li>
+                <li>Chơi cầu lông: Vào cuối tuần để thư giãn đầu óc.</li>
+            </ul>
+        </div>
+        </section>
+
+        <section id="lien-he">
+            <h2>Liên hệ & Góp ý</h2>
+            <p>Tôi luôn hoan nghênh mọi góp ý, câu hỏi, hoặc cơ hội hợp tác. Hãy điền vào biểu mẫu dưới đây!</p>
+
+            <form class="contact-form" action="#" method="POST">
+                <div>
+                    <label for="name">Họ tên:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="subject">Tiêu đề:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div>
+                    <label for="message">Nội dung:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Gửi</button>
+            </form>
+
+            <hr style="margin-top: 20px;">
+            <h3>Kết nối với tôi</h3>
+            Số điện thoại: 093xxxxx17<br />
+            Email: 5101104128@student.hcmue.edu.vn
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy;Thiết kế bởi Kiều Gia Bảo.</p>
+    </footer>
+
+</body>
+</html>
